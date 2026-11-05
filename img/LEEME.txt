@@ -1,0 +1,12 @@
+TODAS LAS FOTOS DE LA PÁGINA ESTÁN COLOCADAS.
+
+Para cambiar una foto, reemplaza el archivo por otro con el MISMO nombre
+(o cambia el nombre dentro de index.html).
+
+Portada y Acerca: hero.webp, bienvenida-olancho.webp
+Lugares:  sierra-agalta.webp, cuevas-talgua.webp, la-muralla.webp, rio-platano.webp,
+          boqueron.webp, juticalpa.webp, iglesia-colonial.webp, rio-guayape.webp, catacamas.png
+Comida:   tapado.webp, pollo-tajadas.webp, desayuno-tipico.webp, baleadas.webp,
+          nacatamal.png, catrachitas.webp, montucas.webp, sopa-mondongo.png
+Galería:  campesino.png, feria-escolar.webp, sendero-bosque.webp (+ algunas de arriba)
+Sin usar: carne-yuca.webp

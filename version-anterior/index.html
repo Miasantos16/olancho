@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visita Olancho | Turismo en Honduras</title>
+  <meta name="description" content="Guía turística de Olancho, Honduras: lugares turísticos, gastronomía, cultura, galería y consejos de viaje.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Work+Sans:wght@300;400;500;600&family=Redaction+10:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===================== NAVEGACIÓN ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#inicio" class="logo"><span>Visita</span> Olancho</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+      <nav>
+        <ul class="nav-links menu" id="navLinks">
+          <li><a href="#inicio" class="active">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            <span>Inicio</span>
+          </a></li>
+          <li><a href="#acerca">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            <span>Acerca</span>
+          </a></li>
+          <li><a href="#lugares">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Lugares</span>
+          </a></li>
+          <li><a href="#comida">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 2v20"/><path d="M4 2v6a3 3 0 0 0 6 0V2"/><path d="M17 22V2c-2 0-3.5 2.5-3.5 6s1.5 5 3.5 5"/></svg>
+            <span>Comida</span>
+          </a></li>
+          <li><a href="#cultura">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            <span>Cultura</span>
+          </a></li>
+          <li><a href="#datos">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            <span>Datos</span>
+          </a></li>
+          <li><a href="#galeria">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            <span>Galería</span>
+          </a></li>
+          <li><a href="#mapa">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+            <span>Mapa</span>
+          </a></li>
+          <li><a href="#contacto">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>Contacto</span>
+          </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Honduras · Centroamérica</p>
+      <h1>Bienvenidos a <span class="destacado loader-wrapper" role="text" aria-label="Olancho"><span class="loader-letter" aria-hidden="true">O</span><span class="loader-letter" aria-hidden="true">l</span><span class="loader-letter" aria-hidden="true">a</span><span class="loader-letter" aria-hidden="true">n</span><span class="loader-letter" aria-hidden="true">c</span><span class="loader-letter" aria-hidden="true">h</span><span class="loader-letter" aria-hidden="true">o</span><span class="loader" aria-hidden="true"></span></span></h1>
+      <p class="hero-text">El departamento más grande de Honduras: montañas de bosque nublado, cuevas milenarias, ríos de oro y la auténtica cultura vaquera.</p>
+      <div class="hero-buttons">
+        <a href="#lugares" class="btn btn-primary"><span class="btn-face"><span class="btn-text">Explorar lugares</span></span></a>
+        <a href="#comida" class="btn btn-outline"><span class="btn-face"><span class="btn-text">Probar su comida</span></span></a>
+      </div>
+
+      <!-- Pila elástica: los círculos se separan al pasar el cursor -->
+      <div class="stack-wrap">
+        <div class="elastic-stack" id="elasticStack">
+          <a href="#lugares" class="stack-item" style="background-image:url('img/sierra-agalta.webp'), var(--ph)" data-name="Sierra de Agalta"><span>S</span></a>
+          <a href="#lugares" class="stack-item" style="background-image:url('img/cuevas-talgua.webp'), var(--ph)" data-name="Cuevas de Talgua"><span>C</span></a>
+          <a href="#lugares" class="stack-item" style="background-image:url('img/la-muralla.webp'), var(--ph)" data-name="La Muralla"><span>M</span></a>
+          <a href="#lugares" class="stack-item" style="background-image:url('img/boqueron.webp'), var(--ph)" data-name="El Boquerón"><span>B</span></a>
+          <a href="#lugares" class="stack-item" style="background-image:url('img/rio-platano.webp'), var(--ph)" data-name="Río Plátano"><span>R</span></a>
+          <a href="#comida" class="stack-item" style="background-image:url('img/tapado.webp'), var(--ph)" data-name="Tapado olanchano"><span>T</span></a>
+          <a href="#lugares" class="stack-item" style="background-image:url('img/iglesia-colonial.webp'), var(--ph)" data-name="Manto"><span>M</span></a>
+        </div>
+        <p class="stack-label" id="stackLabel">Pasa el cursor y descubre Olancho</p>
+      </div>
+    </div>
+    <a href="#acerca" class="scroll-down" aria-label="Bajar">⌄</a>
+  </section>
+
+  <!-- ===================== ACERCA ===================== -->
+  <section class="section" id="acerca">
+    <div class="container about">
+      <div class="about-img reveal" style="background-image:url('img/bienvenida-olancho.webp'), var(--ph)"></div>
+      <div class="about-text reveal">
+        <p class="section-tag">Conoce Olancho</p>
+        <h2>Tierra de valientes y de naturaleza infinita</h2>
+        <p>Olancho, conocido popularmente como <strong>"La República de Olancho"</strong>, ocupa cerca de una quinta parte del territorio hondureño. Su cabecera es <strong>Juticalpa</strong> y entre sus ciudades más importantes están Catacamas, Campamento, San Esteban, Gualaco y Salamá.</p>
+        <p>Es tierra de ganaderos, de sombreros y caballos, de quesos y mantequilla, y guarda algunos de los tesoros naturales y arqueológicos más importantes del país.</p>
+        <div class="stats">
+          <div class="stat"><h3 data-count="24000">0</h3><p>km² de territorio</p></div>
+          <div class="stat"><h3 data-count="23">0</h3><p>municipios</p></div>
+          <div class="stat"><h3 data-count="2354">0</h3><p>m de altura en La Picucha</p></div>
+          <div class="stat"><h3 data-count="1825">0</h3><p>año de fundación del departamento</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== LUGARES TURÍSTICOS ===================== -->
+  <section class="section section-alt" id="lugares">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Destinos</p>
+        <h2>Lugares turísticos</h2>
+        <p>Desde bosques nublados hasta cuevas con miles de años de historia.</p>
+      </div>
+
+      <div class="filters reveal">
+        <button class="filter-btn active" data-filter="todos"><span class="btn-face"><span class="btn-text">Todos</span></span></button>
+        <button class="filter-btn" data-filter="naturaleza"><span class="btn-face"><span class="btn-text">Naturaleza</span></span></button>
+        <button class="filter-btn" data-filter="historia"><span class="btn-face"><span class="btn-text">Historia</span></span></button>
+        <button class="filter-btn" data-filter="aventura"><span class="btn-face"><span class="btn-text">Aventura</span></span></button>
+      </div>
+
+      <div class="cards-grid" id="placesGrid">
+        <article class="flip-card reveal" data-category="naturaleza aventura" tabindex="0" aria-label="Sierra de Agalta: Gualaco / Catacamas">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/sierra-agalta.webp'), var(--ph)">
+              <span class="badge">Parque Nacional</span>
+              <div class="flip-caption">
+                <h3>Sierra de Agalta</h3>
+                <p class="flip-meta">Gualaco / Catacamas</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Parque Nacional</span>
+                <h3>Sierra de Agalta</h3>
+                <p class="flip-meta">Gualaco / Catacamas</p>
+                <p>Uno de los bosques nublados mejor conservados de Centroamérica. Aquí está La Picucha, una de las cumbres más altas del país, con senderos, cascadas y gran biodiversidad.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" data-category="historia aventura" tabindex="0" aria-label="Cuevas de Talgua: Catacamas">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/cuevas-talgua.webp'), var(--ph)">
+              <span class="badge">Arqueología</span>
+              <div class="flip-caption">
+                <h3>Cuevas de Talgua</h3>
+                <p class="flip-meta">Catacamas</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Arqueología</span>
+                <h3>Cuevas de Talgua</h3>
+                <p class="flip-meta">Catacamas</p>
+                <p>Conocidas como la "Cueva de las Calaveras Brillantes". Contienen restos humanos de más de 3,000 años cubiertos de cristales de calcita que brillan con la luz.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" data-category="naturaleza" tabindex="0" aria-label="Parque Nacional La Muralla: La Unión">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/la-muralla.webp'), var(--ph)">
+              <span class="badge">Parque Nacional</span>
+              <div class="flip-caption">
+                <h3>Parque Nacional La Muralla</h3>
+                <p class="flip-meta">La Unión</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Parque Nacional</span>
+                <h3>Parque Nacional La Muralla</h3>
+                <p class="flip-meta">La Unión</p>
+                <p>Bosque nublado ideal para el avistamiento de aves. Es uno de los mejores lugares de Honduras para ver el quetzal, además de tucanes, monos y orquídeas.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" data-category="naturaleza aventura" tabindex="0" aria-label="Reserva del Río Plátano: Norte de Olancho">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/rio-platano.webp'), var(--ph)">
+              <span class="badge">Patrimonio Mundial</span>
+              <div class="flip-caption">
+                <h3>Reserva del Río Plátano</h3>
+                <p class="flip-meta">Norte de Olancho</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Patrimonio Mundial</span>
+                <h3>Reserva del Río Plátano</h3>
+                <p class="flip-meta">Norte de Olancho</p>
+                <p>Parte de esta gran reserva de biosfera, declarada Patrimonio de la Humanidad por la UNESCO, se extiende en Olancho: selva tropical, ríos y vida silvestre.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" data-category="naturaleza aventura" tabindex="0" aria-label="El Boquerón: Entre Juticalpa y Catacamas">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/boqueron.webp'), var(--ph)">
+              <span class="badge">Monumento Natural</span>
+              <div class="flip-caption">
+                <h3>El Boquerón</h3>
+                <p class="flip-meta">Entre Juticalpa y Catacamas</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Monumento Natural</span>
+                <h3>El Boquerón</h3>
+                <p class="flip-meta">Entre Juticalpa y Catacamas</p>
+                <p>Un impresionante cañón con paredes de roca por donde corre el río. Perfecto para caminatas, fotografía y bañarse en sus pozas naturales.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" data-category="historia" tabindex="0" aria-label="Juticalpa y su Catedral: Juticalpa">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/juticalpa.webp'), var(--ph)">
+              <span class="badge">Ciudad</span>
+              <div class="flip-caption">
+                <h3>Juticalpa y su Catedral</h3>
+                <p class="flip-meta">Juticalpa</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Ciudad</span>
+                <h3>Juticalpa y su Catedral</h3>
+                <p class="flip-meta">Juticalpa</p>
+                <p>La cabecera departamental, con su parque central, su catedral y su ambiente comercial. Punto de partida ideal para recorrer el departamento.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" data-category="historia" tabindex="0" aria-label="Manto: Manto">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/iglesia-colonial.webp'), var(--ph)">
+              <span class="badge">Colonial</span>
+              <div class="flip-caption">
+                <h3>Manto</h3>
+                <p class="flip-meta">Manto</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Colonial</span>
+                <h3>Manto</h3>
+                <p class="flip-meta">Manto</p>
+                <p>Uno de los pueblos más antiguos de Olancho y antigua sede del gobierno departamental. Sus calles y su iglesia colonial guardan siglos de historia.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" data-category="naturaleza aventura" tabindex="0" aria-label="Río Guayape: Valle de Olancho">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/rio-guayape.webp'), var(--ph)">
+              <span class="badge">Río</span>
+              <div class="flip-caption">
+                <h3>Río Guayape</h3>
+                <p class="flip-meta">Valle de Olancho</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Río</span>
+                <h3>Río Guayape</h3>
+                <p class="flip-meta">Valle de Olancho</p>
+                <p>Famoso desde la época colonial por el oro en sus arenas. Hoy es ideal para paseos, pesca y disfrutar del paisaje del valle olanchano.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" data-category="historia" tabindex="0" aria-label="Catacamas: Catacamas">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/catacamas.png'), var(--ph)">
+              <span class="badge">Ciudad</span>
+              <div class="flip-caption">
+                <h3>Catacamas</h3>
+                <p class="flip-meta">Catacamas</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Ciudad</span>
+                <h3>Catacamas</h3>
+                <p class="flip-meta">Catacamas</p>
+                <p>La ciudad más grande del departamento, sede de la Universidad Nacional de Agricultura y puerta de entrada a las Cuevas de Talgua y a la Sierra de Agalta.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GASTRONOMÍA ===================== -->
+  <section class="section" id="comida">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Sabores</p>
+        <h2>Gastronomía olanchana</h2>
+        <p>Tierra ganadera por excelencia: aquí los lácteos y la carne son los protagonistas.</p>
+      </div>
+
+      <div class="food-grid">
+        <article class="flip-card reveal" tabindex="0" aria-label="Tapado olanchano: Gastronomía olanchana">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/tapado.webp'), var(--ph)">
+              <span class="badge">Sopa</span>
+              <div class="flip-caption">
+                <h3>Tapado olanchano</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Sopa</span>
+                <h3>Tapado olanchano</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+                <p>Sopa espesa con carne seca, yuca, plátano, malanga y otras verduras. El plato más emblemático del departamento.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" tabindex="0" aria-label="Pollo con tajadas: Gastronomía olanchana">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/pollo-tajadas.webp'), var(--ph)">
+              <span class="badge">Plato fuerte</span>
+              <div class="flip-caption">
+                <h3>Pollo con tajadas</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Plato fuerte</span>
+                <h3>Pollo con tajadas</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+                <p>Pollo frito sobre tajadas de plátano verde, con repollo encurtido, chismol y aderezo. Uno de los platos más populares de Honduras.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" tabindex="0" aria-label="Desayuno típico: Gastronomía olanchana">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/desayuno-tipico.webp'), var(--ph)">
+              <span class="badge">Desayuno</span>
+              <div class="flip-caption">
+                <h3>Desayuno típico</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Desayuno</span>
+                <h3>Desayuno típico</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+                <p>Huevos, frijoles fritos, plátano maduro, aguacate, chorizo y la famosa cuajada y mantequilla crema de Olancho.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" tabindex="0" aria-label="Baleadas: Gastronomía olanchana">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/baleadas.webp'), var(--ph)">
+              <span class="badge">Antojito</span>
+              <div class="flip-caption">
+                <h3>Baleadas</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Antojito</span>
+                <h3>Baleadas</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+                <p>Tortilla de harina recién hecha con frijoles, mantequilla y queso; también con huevo y aguacate.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" tabindex="0" aria-label="Nacatamales: Gastronomía olanchana">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/nacatamal.png'), var(--ph)">
+              <span class="badge">Tradición</span>
+              <div class="flip-caption">
+                <h3>Nacatamales</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Tradición</span>
+                <h3>Nacatamales</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+                <p>Masa de maíz rellena de cerdo o pollo, arroz y verduras, envuelta en hoja de plátano. Infaltables en diciembre.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" tabindex="0" aria-label="Catrachitas: Gastronomía olanchana">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/catrachitas.webp'), var(--ph)">
+              <span class="badge">Antojito</span>
+              <div class="flip-caption">
+                <h3>Catrachitas</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Antojito</span>
+                <h3>Catrachitas</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+                <p>Tortillas de maíz fritas y crujientes, cubiertas con frijoles molidos y queso seco rallado.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" tabindex="0" aria-label="Atol y montucas: Gastronomía olanchana">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/montucas.webp'), var(--ph)">
+              <span class="badge">Temporada de elote</span>
+              <div class="flip-caption">
+                <h3>Atol y montucas</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Temporada de elote</span>
+                <h3>Atol y montucas</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+                <p>En temporada de elote: montucas y tamalitos envueltos en hoja de maíz, acompañados de atol de elote.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card reveal" tabindex="0" aria-label="Sopa de mondongo: Gastronomía olanchana">
+          <div class="flip-inner">
+            <div class="flip-front" style="background-image:url('img/sopa-mondongo.png'), var(--ph)">
+              <span class="badge">Sopa</span>
+              <div class="flip-caption">
+                <h3>Sopa de mondongo</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Sopa</span>
+                <h3>Sopa de mondongo</h3>
+                <p class="flip-meta">Gastronomía olanchana</p>
+                <p>Sopa tradicional con mondongo, pata de res, yuca, plátano y verduras. Se acompaña con arroz y tortillas.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CULTURA ===================== -->
+  <section class="section section-dark" id="cultura">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Tradiciones</p>
+        <h2>Cultura y festividades</h2>
+        <p>El orgullo olanchano se vive en cada rodeo, cada feria y cada fiesta patronal.</p>
+      </div>
+      <div class="culture-grid">
+        <article class="flip-card flip-card-text reveal" tabindex="0" aria-label="Cultura vaquera">
+          <div class="flip-inner">
+            <div class="flip-front flip-front-art">
+              <div class="flip-art" aria-hidden="true">
+                <span class="flip-circle"></span>
+                <span class="flip-circle flip-circle-right"></span>
+                <span class="flip-circle flip-circle-bottom"></span>
+              </div>
+              <span class="badge">Tradición</span>
+              <div class="flip-caption">
+                <h3>Cultura vaquera</h3>
+                <p class="flip-meta">Pasa el cursor para leer más</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Tradición</span>
+                <h3>Cultura vaquera</h3>
+                <p>Sombrero, botas y caballo. La tradición ganadera define la identidad de Olancho.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card flip-card-text reveal" tabindex="0" aria-label="Rodeos y jaripeos">
+          <div class="flip-inner">
+            <div class="flip-front flip-front-art">
+              <div class="flip-art" aria-hidden="true">
+                <span class="flip-circle"></span>
+                <span class="flip-circle flip-circle-right"></span>
+                <span class="flip-circle flip-circle-bottom"></span>
+              </div>
+              <span class="badge">Tradición</span>
+              <div class="flip-caption">
+                <h3>Rodeos y jaripeos</h3>
+                <p class="flip-meta">Pasa el cursor para leer más</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Tradición</span>
+                <h3>Rodeos y jaripeos</h3>
+                <p>Montas de toros, carreras de caballos y desfiles hípicos llenan los pueblos de fiesta.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card flip-card-text reveal" tabindex="0" aria-label="Ferias patronales">
+          <div class="flip-inner">
+            <div class="flip-front flip-front-art">
+              <div class="flip-art" aria-hidden="true">
+                <span class="flip-circle"></span>
+                <span class="flip-circle flip-circle-right"></span>
+                <span class="flip-circle flip-circle-bottom"></span>
+              </div>
+              <span class="badge">Tradición</span>
+              <div class="flip-caption">
+                <h3>Ferias patronales</h3>
+                <p class="flip-meta">Pasa el cursor para leer más</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Tradición</span>
+                <h3>Ferias patronales</h3>
+                <p>Cada municipio celebra a su santo patrono con procesiones, música, comida y carnavales.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card flip-card-text reveal" tabindex="0" aria-label="Ferias ganaderas">
+          <div class="flip-inner">
+            <div class="flip-front flip-front-art">
+              <div class="flip-art" aria-hidden="true">
+                <span class="flip-circle"></span>
+                <span class="flip-circle flip-circle-right"></span>
+                <span class="flip-circle flip-circle-bottom"></span>
+              </div>
+              <span class="badge">Tradición</span>
+              <div class="flip-caption">
+                <h3>Ferias ganaderas</h3>
+                <p class="flip-meta">Pasa el cursor para leer más</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Tradición</span>
+                <h3>Ferias ganaderas</h3>
+                <p>Exposiciones de ganado y productos lácteos que muestran la fuerza agropecuaria del departamento.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card flip-card-text reveal" tabindex="0" aria-label="Música ranchera">
+          <div class="flip-inner">
+            <div class="flip-front flip-front-art">
+              <div class="flip-art" aria-hidden="true">
+                <span class="flip-circle"></span>
+                <span class="flip-circle flip-circle-right"></span>
+                <span class="flip-circle flip-circle-bottom"></span>
+              </div>
+              <span class="badge">Tradición</span>
+              <div class="flip-caption">
+                <h3>Música ranchera</h3>
+                <p class="flip-meta">Pasa el cursor para leer más</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Tradición</span>
+                <h3>Música ranchera</h3>
+                <p>Rancheras, corridos y música de banda acompañan las celebraciones olanchanas.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card flip-card-text reveal" tabindex="0" aria-label=""Olancho es grande"">
+          <div class="flip-inner">
+            <div class="flip-front flip-front-art">
+              <div class="flip-art" aria-hidden="true">
+                <span class="flip-circle"></span>
+                <span class="flip-circle flip-circle-right"></span>
+                <span class="flip-circle flip-circle-bottom"></span>
+              </div>
+              <span class="badge">Tradición</span>
+              <div class="flip-caption">
+                <h3>"Olancho es grande"</h3>
+                <p class="flip-meta">Pasa el cursor para leer más</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Tradición</span>
+                <h3>"Olancho es grande"</h3>
+                <p>Más que un dicho: una forma de describir su territorio, su gente y su carácter.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALERÍA ===================== -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Fotos</p>
+        <h2>Galería</h2>
+        <p>Haz clic en una imagen para verla en grande.</p>
+      </div>
+      <div class="gallery">
+        <div class="gallery-item tall" style="background-image:url('img/campesino.png'), var(--ph)" data-caption="Campesino olanchano"></div>
+        <div class="gallery-item" style="background-image:url('img/iglesia-colonial.webp'), var(--ph)" data-caption="Iglesia colonial de Olancho"></div>
+        <div class="gallery-item" style="background-image:url('img/feria-escolar.webp'), var(--ph)" data-caption="Exposición cultural de Olancho"></div>
+        <div class="gallery-item wide" style="background-image:url('img/hero.webp'), var(--ph)" data-caption="Montañas y pueblos de Olancho"></div>
+        <div class="gallery-item" style="background-image:url('img/bienvenida-olancho.webp'), var(--ph)" data-caption="Olancho: tierra del oro y del talento"></div>
+        <div class="gallery-item tall" style="background-image:url('img/rio-guayape.webp'), var(--ph)" data-caption="Río Guayape"></div>
+        <div class="gallery-item" style="background-image:url('img/sendero-bosque.webp'), var(--ph)" data-caption="Sendero en el bosque"></div>
+        <div class="gallery-item wide" style="background-image:url('img/juticalpa.webp'), var(--ph)" data-caption="Letras de bienvenida de Juticalpa"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">✕</button>
+    <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Anterior">‹</button>
+    <div class="lightbox-img" id="lightboxImg"></div>
+    <button class="lightbox-nav next" id="lightboxNext" aria-label="Siguiente">›</button>
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <!-- ===================== CONSEJOS ===================== -->
+  <section class="section section-alt" id="consejos">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Planifica</p>
+        <h2>Consejos para tu viaje</h2>
+      </div>
+      <div class="tips-grid">
+        <article class="flip-card flip-card-text reveal" tabindex="0" aria-label="Cómo llegar">
+          <div class="flip-inner">
+            <div class="flip-front flip-front-art">
+              <div class="flip-art" aria-hidden="true">
+                <span class="flip-circle"></span>
+                <span class="flip-circle flip-circle-right"></span>
+                <span class="flip-circle flip-circle-bottom"></span>
+              </div>
+              <span class="badge">Consejo</span>
+              <div class="flip-caption">
+                <h3>Cómo llegar</h3>
+                <p class="flip-meta">Pasa el cursor para leer más</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Consejo</span>
+                <h3>Cómo llegar</h3>
+                <p>Desde Tegucigalpa se llega a Juticalpa por carretera en unas 3 horas aproximadamente. Hay buses diarios desde la capital.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card flip-card-text reveal" tabindex="0" aria-label="Mejor época">
+          <div class="flip-inner">
+            <div class="flip-front flip-front-art">
+              <div class="flip-art" aria-hidden="true">
+                <span class="flip-circle"></span>
+                <span class="flip-circle flip-circle-right"></span>
+                <span class="flip-circle flip-circle-bottom"></span>
+              </div>
+              <span class="badge">Consejo</span>
+              <div class="flip-caption">
+                <h3>Mejor época</h3>
+                <p class="flip-meta">Pasa el cursor para leer más</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Consejo</span>
+                <h3>Mejor época</h3>
+                <p>La temporada seca (de diciembre a abril) es la más cómoda para senderismo y visitar cuevas.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card flip-card-text reveal" tabindex="0" aria-label="Qué llevar">
+          <div class="flip-inner">
+            <div class="flip-front flip-front-art">
+              <div class="flip-art" aria-hidden="true">
+                <span class="flip-circle"></span>
+                <span class="flip-circle flip-circle-right"></span>
+                <span class="flip-circle flip-circle-bottom"></span>
+              </div>
+              <span class="badge">Consejo</span>
+              <div class="flip-caption">
+                <h3>Qué llevar</h3>
+                <p class="flip-meta">Pasa el cursor para leer más</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Consejo</span>
+                <h3>Qué llevar</h3>
+                <p>Ropa cómoda, botas para caminar, repelente, bloqueador, impermeable y abrigo para la montaña.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="flip-card flip-card-text reveal" tabindex="0" aria-label="Guías locales">
+          <div class="flip-inner">
+            <div class="flip-front flip-front-art">
+              <div class="flip-art" aria-hidden="true">
+                <span class="flip-circle"></span>
+                <span class="flip-circle flip-circle-right"></span>
+                <span class="flip-circle flip-circle-bottom"></span>
+              </div>
+              <span class="badge">Consejo</span>
+              <div class="flip-caption">
+                <h3>Guías locales</h3>
+                <p class="flip-meta">Pasa el cursor para leer más</p>
+              </div>
+            </div>
+            <div class="flip-back">
+              <div class="flip-back-content">
+                <span class="badge">Consejo</span>
+                <h3>Guías locales</h3>
+                <p>Para la Sierra de Agalta, La Muralla y las zonas de reserva, contrata siempre un guía local autorizado.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DATOS EN EL CELULAR ===================== -->
+  <section class="section" id="datos">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Antes de salir</p>
+        <h2>Olancho en tu celular</h2>
+        <p>Lo básico que conviene saber, listo para revisar en el camino.</p>
+      </div>
+
+      <div class="phones">
+        <div class="phone reveal">
+          <span class="phone-notch"></span>
+          <span class="phone-btn phone-btn-top"></span>
+          <span class="phone-btn phone-btn-bottom"></span>
+          <div class="phone-screen">
+            <p class="phone-tag">Ficha</p>
+            <h3>Olancho en datos</h3>
+            <dl class="phone-list">
+              <div><dt>Cabecera</dt><dd>Juticalpa</dd></div>
+              <div><dt>Ciudad más grande</dt><dd>Catacamas</dd></div>
+              <div><dt>Municipios</dt><dd>23</dd></div>
+              <div><dt>Superficie</dt><dd>≈ 24,000 km²</dd></div>
+              <div><dt>Moneda</dt><dd>Lempira (HNL)</dd></div>
+              <div><dt>Idioma</dt><dd>Español</dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="phone reveal">
+          <span class="phone-notch"></span>
+          <span class="phone-btn phone-btn-top"></span>
+          <span class="phone-btn phone-btn-bottom"></span>
+          <div class="phone-screen">
+            <p class="phone-tag">Clima</p>
+            <h3>¿Cuándo ir?</h3>
+            <div class="phone-season seca">
+              <strong>Temporada seca</strong>
+              <span>Diciembre a abril</span>
+              <p>La mejor para caminatas, cuevas y ríos.</p>
+            </div>
+            <div class="phone-season lluvia">
+              <strong>Temporada lluviosa</strong>
+              <span>Mayo a noviembre</span>
+              <p>Todo verde, pero caminos con lodo.</p>
+            </div>
+            <p class="phone-note">En el valle hace calor; en la montaña hace frío. Lleva abrigo.</p>
+          </div>
+        </div>
+
+        <div class="phone reveal">
+          <span class="phone-notch"></span>
+          <span class="phone-btn phone-btn-top"></span>
+          <span class="phone-btn phone-btn-bottom"></span>
+          <div class="phone-screen">
+            <p class="phone-tag">Ruta</p>
+            <h3>Desde Tegucigalpa</h3>
+            <ol class="phone-route">
+              <li><strong>Tegucigalpa</strong><span>Salida</span></li>
+              <li><strong>Guaimaca</strong><span>Francisco Morazán</span></li>
+              <li><strong>Campamento</strong><span>Entrada a Olancho</span></li>
+              <li><strong>Juticalpa</strong><span>≈ 3 horas en carro</span></li>
+              <li><strong>Catacamas</strong><span>Cuevas de Talgua</span></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MAPA ===================== -->
+  <section class="section" id="mapa">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Ubicación</p>
+        <h2>¿Dónde está Olancho?</h2>
+        <p>En el oriente de Honduras, limita con Yoro, Colón, Gracias a Dios, El Paraíso, Francisco Morazán y Nicaragua.</p>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe
+          src="https://maps.google.com/maps?q=Olancho,Honduras&t=&z=8&ie=UTF8&iwloc=&output=embed"
+          loading="lazy" title="Mapa de Olancho" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACTO ===================== -->
+  <section class="section section-dark" id="contacto">
+    <div class="container contact">
+      <div class="contact-info reveal">
+        <p class="section-tag">Escríbenos</p>
+        <h2>¿Planeas visitar Olancho?</h2>
+        <p>Déjanos tus datos y te ayudamos a organizar tu viaje.</p>
+        <ul>
+          <li>Juticalpa, Olancho, Honduras</li>
+          <li>+504 0000-0000</li>
+          <li>info@visitaolancho.hn</li>
+        </ul>
+      </div>
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+        <input type="email" id="correo" placeholder="Tu correo" required>
+        <select id="interes">
+          <option value="">¿Qué te interesa?</option>
+          <option>Naturaleza y senderismo</option>
+          <option>Historia y cuevas</option>
+          <option>Gastronomía</option>
+          <option>Ferias y rodeos</option>
+        </select>
+        <textarea id="mensaje" rows="4" placeholder="Tu mensaje" required></textarea>
+        <button type="submit" class="btn btn-primary"><span class="btn-face"><span class="btn-text">Enviar mensaje</span></span></button>
+        <p class="form-msg" id="formMsg"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <a href="#inicio" class="logo"><span>Visita</span> Olancho</a>
+        <p>Turismo, naturaleza y tradición en el corazón de Honduras.</p>
+      </div>
+      <div>
+        <h4>Secciones</h4>
+        <a href="#lugares">Lugares</a>
+        <a href="#comida">Gastronomía</a>
+        <a href="#cultura">Cultura</a>
+        <a href="#galeria">Galería</a>
+      </div>
+      <div>
+        <h4>Síguenos</h4>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Visita Olancho · Proyecto escolar</p>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Volver arriba">↑</button>
+
+  <script src="js/text-animation.js"></script>
+  <script src="js/elastic-stack.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
